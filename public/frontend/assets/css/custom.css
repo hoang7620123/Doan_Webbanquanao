@@ -1,0 +1,73 @@
+.product__details__option__size {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.product__details__option__size span {
+    color: #111111;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.product__details__option__size label {
+    color: #111111;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    padding: 6px 15px;
+    margin-bottom: 0;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.product__details__option__size label.active {
+    background: #111111;
+    color: #ffffff;
+    border-color: #111111;
+}
+
+.product__details__option__size label input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.product__details__option__size {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 25px;
+}
+
+.product-policy {
+margin-top: 15px; }
+.product-policy .product-policy-header {
+background: #eaeaea;
+padding: 7px;
+margin-bottom: 7px; }
+.product-policy .product-policy-header h4 {
+  color: #288f06;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 16px; }
+.product-policy .list-policy .item-policy {
+padding: 7px 5px; }
+.product-policy .list-policy .item-policy .item-policy-icon {
+  width: 40px;
+  float: left; }
+.product-policy .list-policy .item-policy .item-policy-text {
+  width: calc(100% - 50px);
+  float: left;
+  margin-left: 10px; }
+  .product-policy .list-policy .item-policy .item-policy-text h5 {
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    font-size: 14px; }
+  .product-policy .list-policy .item-policy .item-policy-text span {
+    font-size: 13px;
+    color: #666;
+    margin: 0; }
+  .product-policy .list-policy .item-policy .item-policy-text p {
+    margin: 0; }
